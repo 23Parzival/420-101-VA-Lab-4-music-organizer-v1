@@ -59,4 +59,26 @@ public class MusicOrganizer
             files.remove(index);
         }
     }
+    
+    public void checkIndex(int index) 
+    {
+        if (index >= 0 && index <= files.size()-1) {
+            
+        }
+        
+        else {
+            System.out.println("Valid range = " + files.size());
+        }
+    }
+    
+    public boolean validIndex(int index) 
+    {
+        if (index >= 0 && index <= files.size()-1) {
+            return true;
+        }
+        
+        else {
+            return false;
+        }
+    }
 }

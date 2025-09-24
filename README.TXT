@@ -39,3 +39,5 @@ Answers to Lab 4, part I:
     }
     
 13. It will become 5.
+
+14. Yes it still works.
